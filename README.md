@@ -6,7 +6,8 @@ Ccылка на датасет: https://www.kaggle.com/datasets/yutkin/corpus-of
 
 ## Реализованные подходы
 
-1. TF-IDF + Logistic Regression
+
+### 1. TF-IDF + Logistic Regression
 
 --Предобработка датасета (токен., стоп-слова, лемматизация с pymystem3)
 
@@ -16,7 +17,7 @@ Ccылка на датасет: https://www.kaggle.com/datasets/yutkin/corpus-of
 
 Результат: 85.3% accuracy 
 
-2. RuBERT (+Dropout + Linear)
+### 2. RuBERT (+Dropout + Linear)
 
 -- Использована предобученная модель 'DeepPavlov/rubert-base-cased'.
 
@@ -28,7 +29,7 @@ Ccылка на датасет: https://www.kaggle.com/datasets/yutkin/corpus-of
 
 Результат: 91.5% accuracy 
 
-3. FastText + усреднение векторов 
+### 3. FastText + усреднение векторов 
 
 -- Использована cc.ru.300.bin 
 
@@ -37,6 +38,7 @@ Ccылка на датасет: https://www.kaggle.com/datasets/yutkin/corpus-of
 -- Классификатор - логистическая регрессия.
 
 Результат: 81.2 % accuracy
+
 
 ## Сводная таблица результатов
 
